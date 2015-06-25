@@ -17,8 +17,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <maven.build.timestamp.format>yyyyMMdd-HHmm</maven.build.timestamp.format>
-    <dependency.spring.version>4.1.7.RELEASE</dependency.spring.version>
     <spring.security.version>3.2.7.RELEASE</spring.security.version>
+    <dependency.spring.version>4.2.0.RC3</dependency.spring.version>
     <jdbc.postgresql.version>9.3-1102-jdbc41</jdbc.postgresql.version>
     <es.version>1.6.1</es.version>
     <scala.version>2.11.7</scala.version>
@@ -931,5 +931,9 @@
       <url>http://dl.bintray.com/scalaz/releases</url>
     </repository>
 
+    <repository>
+      <id>spring milestone</id>
+      <url>http://repo.spring.io/milestone/</url>
+    </repository>
   </repositories>
 </project>
